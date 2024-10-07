@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: Figtree-variable;
+  src: url(./assets/fonts/Figtree-Italic-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: Figtree-italic;
+  src: url(./assets/fonts/Figtree-Italic-VariableFont_wght.ttf);
+}
+h1{
+  font-family: Figtree-italic;
+}
+p{
+  font-family: Figtree-variable;
+}
